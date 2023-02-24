@@ -37,7 +37,7 @@
 **9. CONCLUSION**
 
 ## INTRODUCTION:
-Introducing the project, "INTELLIGENT NOTICE PANEL WITH ALEXA" With this state-of-the-art technology, you can effortlessly control your display with the power of your voice. Whether you need to turn the display on or off or change the text to display precisely what you need, this system provides a hands-free solution to all your display needs.The beauty of this project lies in its simplicity. By utilizing the power of Alexa, you can seamlessly integrate your display into your smart home network and easily manage it with just a few simple voice commands. No more fumbling for remotes or struggling with confusing menus - with "Smarter Display using Alexa," you can easily take control of your display.
+Introducing the project, "INTELLIGENT NOTICE PANEL WITH ALEXA". With this state-of-the-art technology, you can effortlessly control your display with the power of your voice. Whether you need to turn the display on or off or change the text to display precisely what you need, this system provides a hands-free solution to all your display needs.The beauty of this project lies in its simplicity. By utilizing the power of Alexa, you can seamlessly integrate your display into your smart home network and easily manage it with just a few simple voice commands. No more fumbling for remotes or struggling with confusing menus - with "Smarter Display using Alexa," you can easily take control of your display.
 
 Whether you're looking to improve your office productivity or want a more streamlined experience at home, this project is the perfect solution. With its intuitive design and user-friendly interface, it's always been challenging to manage your display and ensure you always have the information you need.
 So why wait? Experience the convenience and efficiency of "INTELLIGENT NOTICE PANEL WITH ALEXA" today, and take the first step towards a smarter, more connected future.
@@ -109,7 +109,7 @@ In this JSON file, the intent name chatGPT is responsible for sending the phrase
 
 ### 3. SETTING UP THE RASPBERRY PI: 
 
-Follow the [Link](https://www.tomshardware.com/how-to/set-up-raspberry-pi) for setting up the raspberry pi 4 for the first time. If you have a already setup raspberry pi 4 skip this step.
+Follow the [link](https://www.tomshardware.com/how-to/set-up-raspberry-pi) for setting up the raspberry pi 4 for the first time. If you have a already setup raspberry pi 4 skip this step.
 
 ### 4. SETTING UP ngrok SERVER:
 
@@ -171,7 +171,7 @@ The flask is installed in the Raspberry pi. Now we have to run the flask server,
 The last hardwares to set up is the W5100S-EVB-PICO board, LED and 8*8 DOT-MATRIX. The circut connection for the same is given below.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/114398468/220860844-5b2690da-a80c-4bdb-b086-52d7ec9a2df5.jpeg"/>
+  <img src=""/>
 </p>
 
 - Connect the VCC of the dot matrix to pin VBUS

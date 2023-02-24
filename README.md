@@ -62,7 +62,7 @@ So why wait? Experience the convenience and efficiency of "Smarter Display using
 - [C++](https://isocpp.org/)
 - [PYTHON](https://www.python.org/)
 
-## WORKFLOW:
+## STORY:
 
 - User says the invocation name "device" to Alexa to start the project.
 - User issues a voice command such as "Alexa ask device, display to turn on" or "Alexa ask device, display to change to this is work time".
@@ -74,6 +74,12 @@ So why wait? Experience the convenience and efficiency of "Smarter Display using
 - Based on the message, an action is performed on the dot matrix display and the message is returned back to the Flask server.
 - The Flask server sends the message back to the ASK, which then responds back to the end user.
 - The display is turned on or off or changed to the required text as per the user's command.
+
+### DIAGRAM:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/114398468/221115134-7f208f9d-abfc-477d-9c7d-71a412035f18.png" />
+</p>
 
 ## **6. STEPS**
 1. Create an Amzazon developer account. 

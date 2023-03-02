@@ -28,16 +28,16 @@
                     "samples": []
                 },
                 {
-                    "name": "chatgpt",
+                    "name": "display",
                     "slots": [
                         {
-                            "name": "question",
+                            "name": "query",
                             "type": "AMAZON.SearchQuery"
                         }
                     ],
                     "samples": [
-                        "{question}",
-                        "to {question}"
+                        "{query}",
+                        "to {query}"
                     ]
                 },
                

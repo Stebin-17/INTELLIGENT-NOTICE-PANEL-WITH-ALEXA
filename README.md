@@ -177,7 +177,7 @@ Head over to 'test' section of your skill console and start testing your skill. 
 
 - FOR TURNING ON THE PANEL- ```Alexa ask device, display turn on the panel'```
 - FOR TURNING OFF THE PANEL- ```Alexa ask device, display turn off the panel```
-- FOR CHANGING THE DISPLAY ON THE PANEL- ```Alexa ask device, display to display {subject}```
+- FOR CHANGING THE DISPLAY ON THE PANEL- ```Alexa ask device, display to change {subject}```
 
 ## 8. CONCLUSION
 

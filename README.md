@@ -30,11 +30,7 @@
   
   8. Link the created skill with the AMAZON-ECHO-DOT
   
-**7. SAMPLE UTTERENCES**
-
-**8. OUTPUT**
-
-**9. CONCLUSION**
+**7 CONCLUSION**
 
 ## INTRODUCTION:
 Introducing the project, "INTELLIGENT NOTICE PANEL WITH ALEXA". With this state-of-the-art technology, you can effortlessly control your display with the power of your voice. Whether you need to turn the display on or off or change the text to display precisely what you need, this system provides a hands-free solution to all your display needs.The beauty of this project lies in its simplicity. By utilizing the power of Alexa, you can seamlessly integrate your display into your smart home network and easily manage it with just a few simple voice commands. No more fumbling for remotes or struggling with confusing menus - with "Smarter Display using Alexa," you can easily take control of your display.
@@ -171,7 +167,7 @@ The flask is installed in the Raspberry pi. Now we have to run the flask server,
 The last hardwares to set up is the W5100S-EVB-PICO board, LED and 8*8 DOT-MATRIX. The circut connection for the same is given below.
 
 <p align="center">
-  <img src=""/>
+  <img src="https://user-images.githubusercontent.com/114398468/222353452-b3ef3a23-1d50-4466-9748-bdbc23290dc1.jpg"/>
 </p>
 
 - Connect the VCC of the dot matrix to pin VBUS
@@ -179,8 +175,6 @@ The last hardwares to set up is the W5100S-EVB-PICO board, LED and 8*8 DOT-MATRI
 - Connect the DIN of the dot matrix to pin GP11
 - Connect the CS of the dot matrix to pin GP13
 - Connect the CLK of the dot matrix to pin GP10
-- Connect the positive leg of LED to GP14
-- Connect the negative leg of the LED to GND
 
 Make the connection as shown in the figure and copy paste the [code](https://github.com/Stebin-17/AIOT-SMARTER-ALEXA-WITH-CHATGPT/blob/main/ALEXA_SUBSCRIPTION_LED%26DOT_MATRIX.ino) into the Aurdino ide. 
 

@@ -175,8 +175,10 @@ Head over to 'test' section of your skill console and start testing your skill. 
 
 ## **7. COMMANDS**
 
-- FOR TURNING ON THE PANEL- ```Alexa ask device, led turn on the panel'```
-- FOR TURNING OFF THE PANEL- ```Alexa ask device, led turn off the panel```
-- FOR CHANGING THE DISPLAY ON THE PANEL- ```Alexa ask device, led to display {subject}```
+- FOR TURNING ON THE PANEL- ```Alexa ask device, display turn on the panel'```
+- FOR TURNING OFF THE PANEL- ```Alexa ask device, display turn off the panel```
+- FOR CHANGING THE DISPLAY ON THE PANEL- ```Alexa ask device, display to display {subject}```
 
 ## 8. CONCLUSION
+
+In summary, the Intelligent Display Panel with Alexa project has successfully demonstrated the integration of an 8x8 matrix display with Alexa voice control technology to create a user-friendly and interactive display. With the ability to turn on/off the display and change its display patterns using voice commands, this project offers a convenient and accessible way to control the display. This project is a great example of how the combination of different technologies can lead to the development of innovative and intelligent devices that can simplify our daily lives.

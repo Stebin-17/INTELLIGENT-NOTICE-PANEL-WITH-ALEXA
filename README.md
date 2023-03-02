@@ -29,8 +29,11 @@
   7. Setup the alexa end point with the 'HTTPS' instead of AWS Lambda ARN
   
   8. Link the created skill with the AMAZON-ECHO-DOT
-  
-**7 CONCLUSION**
+
+**7. COMMANDS**
+
+**8. CONCLUSION**
+
 
 ## INTRODUCTION:
 Introducing the project, "INTELLIGENT NOTICE PANEL WITH ALEXA". With this state-of-the-art technology, you can effortlessly control your display with the power of your voice. Whether you need to turn the display on or off or change the text to display precisely what you need, this system provides a hands-free solution to all your display needs.The beauty of this project lies in its simplicity. By utilizing the power of Alexa, you can seamlessly integrate your display into your smart home network and easily manage it with just a few simple voice commands. No more fumbling for remotes or struggling with confusing menus - with "Smarter Display using Alexa," you can easily take control of your display.
@@ -58,7 +61,7 @@ So why wait? Experience the convenience and efficiency of "INTELLIGENT NOTICE PA
 - [C++](https://isocpp.org/)
 - [PYTHON](https://www.python.org/)
 
-## STORY:
+## **5.STORY**
 
 - User says the invocation name "device" to Alexa to start the project.
 - User issues a voice command such as "Alexa ask device, display to turn on" or "Alexa ask device, display to change to this is work time".
@@ -95,7 +98,7 @@ Follow this link for the steps-> [AMAZON DEVELOPER ACCOUNT](https://developer.am
 
 Amazon Skills are voice-activated capabilities that allow Amazon Alexa to perform a wide variety of tasks, from playing music to controlling smart home devices. These skills can be created by anyone, from individual developers to large companies, and can be published on the Amazon Alexa Skills Store for millions of users to access. To create a custom skill, one can use the Alexa Skills Kit, a set of tools and resources provided by Amazon that includes a web-based interface for designing and building custom skills. The process involves defining the skill's invocation name, intents, and sample utterances, as well as coding the skill's back-end logic using either AWS Lambda or a custom web service. Here in our case we will be using custom web service with the help of ngrok. To make the above mentioned steps i have added a json file which includes all the above mentioned attributes. The invocation name given is "chat", which can be changed to any name of your choice. 
 
-Copy paste the [AMAZON_SKILLS.JSON](https://github.com/Stebin-17/AIOT-SMARTER-ALEXA-WITH-CHATGPT/blob/main/ALEXA_SKILLS.JSON) file given in the github and paste it to the JSON Editor section given
+Copy paste the [AMAZON_SKILLS.JSON](https://github.com/Stebin-17/INTELLIGENT-NOTICE-PANEL-WITH-ALEXA/blob/main/ALEXA_SKILLS.JSON) file given in the github and paste it to the JSON Editor section given
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114398468/220568727-c1e6d4a0-8475-4c85-979f-74f35509146d.png" />
@@ -144,25 +147,6 @@ pip install pyopenssl ndg-httpsclient pyasn1
 
 The flask is installed in the Raspberry pi. Now we have to run the flask server, which will receive requests from the Alexa skills through the endpoint given. The ngrok is working on the same system as the flask server, which will help the local host to be publicly visible and accessible. To run the flask server, open the code in the [link](https://github.com/Stebin-17/AIOT-SMARTER-ALEXA-WITH-CHATGPT/blob/main/FLASK_SERVER_ALEXA.py).
  
- The python code has a certain block of code starting with ```@ask.intent('chatgpt',mapping={'user_question':'question'})``` this is the block of code that handles both the chatGPT conversion and MQTT message handling whenever the phrase is reached. The value of the ```question``` is mapped to a variable ```user_question``` in the function.
- 
- #### **CHATGPT:**
- 
- The heart and the core part of this function block is the code that converts the incoming phrase from the user to a particular target ie, either ```Turn on light``` or ```Turn off light```. The code is mentioned below:
- 
- ```
- openai.api_key = "sk-t5Zj7TH***********************ZqyW28aWB2lblsS53N"
- chat= "i want to see"
- respond = openai.Completion.create(model="text-davinci-003",
-                                           prompt="Convert \"" + chat + "\" to any one among below commands :\n- Turn off light  \n- Turn on light\n",
-                                           temperature=0,max_tokens=100,
-                                           top_p=1,
-                                           frequency_penalty=0.2,
-                                           presence_penalty=0 )
- ```
- 
- One has to obtain an openai.api_key from the chatGPT API, and the link is given [here](https://www.educative.io/answers/how-to-get-api-key-of-gpt-3). If the phrase from a user is like ```Alexa ask device, I want to see```I want to see part, will be mapped into the ```user_question``` by slot value ```question``` and will be assigned into the ```chat``` variable . This value will go through the code above, and the result will be ```Turn on light``` as the sentiment of the text is more positive.
- 
 ### 6. CIRCUT CONNECTION
 The last hardwares to set up is the W5100S-EVB-PICO board, LED and 8*8 DOT-MATRIX. The circut connection for the same is given below.
 
@@ -176,7 +160,7 @@ The last hardwares to set up is the W5100S-EVB-PICO board, LED and 8*8 DOT-MATRI
 - Connect the CS of the dot matrix to pin GP13
 - Connect the CLK of the dot matrix to pin GP10
 
-Make the connection as shown in the figure and copy paste the [code](https://github.com/Stebin-17/AIOT-SMARTER-ALEXA-WITH-CHATGPT/blob/main/ALEXA_SUBSCRIPTION_LED%26DOT_MATRIX.ino) into the Aurdino ide. 
+Make the connection as shown in the figure and copy paste the [code](https://github.com/Stebin-17/INTELLIGENT-NOTICE-PANEL-WITH-ALEXA/blob/main/ALEXA_SUBSCRIPTION_INTELLIGENT_PANEL.ino) into the Aurdino ide. 
 
 ### 7. SETUP THE ALEXA ENDPOINT
 
@@ -189,3 +173,10 @@ Make the endpoint of Alexa to the webaddress obtained from ngrok. For SSL certif
 ### 8. TEST THE SKILLS AND CONNECT TO ECHO DOT:
 Head over to 'test' section of your skill console and start testing your skill. Try saying commands like ```Alexa ask chat to i wanna see```. This should turn on LED light connected to you Raspberry Pi. For attaching the Echo-Dot to  this project refer the steps mentioned in the [link](https://www.theverge.com/2019/11/19/20972973/amazon-echo-alexa-how-to-add-skills-smart-home-games-sounds).
 
+## **7. COMMANDS**
+
+- FOR TURNING ON THE PANEL- ```Alexa ask device, led turn on the panel'```
+- FOR TURNING OFF THE PANEL- ```Alexa ask device, led turn off the panel```
+- FOR CHANGING THE DISPLAY ON THE PANEL- ```Alexa ask device, led to display {subject}```
+
+## 8. CONCLUSION

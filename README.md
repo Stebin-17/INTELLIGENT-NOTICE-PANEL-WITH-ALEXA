@@ -39,7 +39,7 @@
 Introducing the project, "INTELLIGENT NOTICE PANEL WITH ALEXA". With this state-of-the-art technology, you can effortlessly control your display with the power of your voice. Whether you need to turn the display on or off or change the text to display precisely what you need, this system provides a hands-free solution to all your display needs.The beauty of this project lies in its simplicity. By utilizing the power of Alexa, you can seamlessly integrate your display into your smart home network and easily manage it with just a few simple voice commands. No more fumbling for remotes or struggling with confusing menus - with "Smarter Display using Alexa," you can easily take control of your display.
 
 Whether you're looking to improve your office productivity or want a more streamlined experience at home, this project is the perfect solution. With its intuitive design and user-friendly interface, it's always been challenging to manage your display and ensure you always have the information you need.
-So why wait? Experience the convenience and efficiency of "INTELLIGENT NOTICE PANEL WITH ALEXA" today, and take the first step towards a smarter, more connected future.
+So why wait? Experience the convenience and efficiency of "INTELLIGENT NOTICE PANEL WITH ALEXA" today, and take the first step towards a smarter, more connected future..
 
 ## **2. HARDWARES USED:**
 
